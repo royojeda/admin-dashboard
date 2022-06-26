@@ -43,11 +43,11 @@ body {
 }
 
 .search input {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .user-info {
-  padding: 0 50px;
+  padding: 25px 50px;
   display: grid;
   align-items: center;
   grid-template-columns: auto auto 1fr;
@@ -58,7 +58,44 @@ body {
   height: 30px;
 }
 
+.user-info p {
+  font-size: 1.25rem;
+}
+
+.header .lower {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.actions {
+  padding: 35px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.greetings {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 15px;
+}
+
+.greetings img {
+  height: 60px;
+  justify-self: end;
+}
+
+.greetings div {
+  justify-self: start;
+}
+
 button {
   display: grid;
   place-content: center;
+}
+
+.username {
+  font-size: 1.5rem;
 }
