@@ -6,4 +6,15 @@
 
 body {
   height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 5fr;
+}
+
+.header {
+  grid-column: 2;
+}
+
+.sidebar {
+  grid-row: 1 / 3;
 }
