@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #eef2ff;
+  background-color: #e0e7ff;
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -89,7 +89,7 @@ body {
 }
 
 .sidebar {
-  background-color: #312e81;
+  background-color: #6366f1;
   grid-row: 1 / 3;
   display: grid;
   grid-template-rows: 1fr 6fr 3fr 6fr;
@@ -160,6 +160,52 @@ body {
 .sidebar .lower p {
   font-size: 1.25rem;
   justify-self: start;
+}
+
+.main-content {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.projects {
+  grid-row: 1 / 3;
+}
+
+.trending {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 15px;
+}
+
+.trending p {
+  font-size: 1.25rem;
+}
+
+.users {
+  background-color: #eef2ff;
+  padding: 30px;
+  display: grid;
+  align-content: space-between;
+}
+
+.users button {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 25px;
+  justify-items: start;
+  align-items: center;
+}
+
+.users button img {
+  height: 50px;
+  grid-row: 1 / 3;
+}
+
+.users button p {
+  font-size: 1rem;
 }
 
 button {
