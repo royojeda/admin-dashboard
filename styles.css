@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   outline: 1px solid black;
+  font-family: 'Anek Latin', sans-serif;
 }
 
 body {
@@ -57,6 +60,7 @@ body {
 
 .user-info p {
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .header .lower {
@@ -113,6 +117,7 @@ body {
 
 .logo p {
   font-size: 1.5rem;
+  font-weight: bold;
   justify-self: start;
 }
 
@@ -172,6 +177,57 @@ body {
 
 .projects {
   grid-row: 1 / 3;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.projects .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.projects .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background-color: #eef2ff;
+  display: grid;
+  grid-template-columns: 10px 1fr;
+}
+
+.card .dash {
+  background-color: #312e81;
+}
+
+.card .content {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+.content .text {
+  grid-column: 1 / 3;
+}
+
+.content .subject {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.content .buttons {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.content button img {
+  height: 30px;
 }
 
 .trending {
@@ -181,6 +237,7 @@ body {
 
 .trending p {
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .users {
@@ -214,6 +271,7 @@ body {
 
 .announcements .title {
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .announcements .outer {
@@ -253,6 +311,7 @@ body {
   justify-self: start;
   align-self: end;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .item > p {
@@ -267,4 +326,5 @@ button {
 
 .username {
   font-size: 1.5rem;
+  font-weight: bold;
 }
