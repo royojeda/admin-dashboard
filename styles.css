@@ -86,20 +86,41 @@ body {
 }
 
 .user-info {
-  padding: 25px 50px;
+  padding: 15px 50px;
   display: grid;
   align-items: center;
-  grid-template-columns: auto auto 1fr;
-  gap: 15px;
+  grid-template-columns: repeat(3, auto);
+  justify-content: end;
+  gap: 20px;
+}
+
+.user-info button {
+  padding: 10px;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info button:first-child {
+  height: 60px;
+  grid-template-columns: auto;
+}
+
+.user-info button:hover {
+  background-color: var(--color-2);
 }
 
 .user-info img {
-  height: 30px;
+  height: 40px;
 }
 
 .user-info p {
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .header .lower {
@@ -139,7 +160,7 @@ body {
 }
 
 .greetings img {
-  height: 60px;
+  height: 70px;
   justify-self: end;
 }
 
