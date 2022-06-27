@@ -22,7 +22,7 @@ body {
   background-color: #e0e7ff;
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 5.5fr;
   grid-template-rows: 1fr 5fr;
 }
 
@@ -116,6 +116,10 @@ body {
   grid-template-rows: 1fr 6fr 3fr 6fr;
   gap: 30px;
   justify-content: center;
+}
+
+.sidebar a:not(.no-hover):hover {
+  background-color: #4f46e5;
 }
 
 .sidebar img[src*=".svg"] {
