@@ -257,8 +257,9 @@ body {
   grid-template-rows: auto 1fr;
 }
 
-.trending p {
+.trending > p {
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .users {
