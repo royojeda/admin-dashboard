@@ -5,6 +5,17 @@
   padding: 0;
   /* outline: 1px solid black; */
   font-family: 'Anek Latin', sans-serif;
+  --color-1: #eef2ff;
+  --color-2: #e0e7ff;
+  --color-3: #c7d2fe;
+  --color-4: #a5b4fc;
+  --color-5: #818cf8;
+  --color-6: #6366f1;
+  --color-7: #4f46e5;
+  --color-8: #4338ca;
+  --color-9: #3730a3;
+  --color-10: #312e81;
+  --shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 button {
@@ -19,7 +30,7 @@ a {
 }
 
 body {
-  background-color: #e0e7ff;
+  background-color: var(--color-3);
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 5.5fr;
@@ -27,9 +38,11 @@ body {
 }
 
 .header {
+  background-color: var(--color-1);
   grid-column: 2;
   display: grid;
   grid-template-rows: 3fr 4fr;
+  box-shadow: var(--shadow);
 }
 
 .header .upper {
@@ -221,9 +234,12 @@ body {
 }
 
 .card {
-  background-color: #eef2ff;
+  background-color: var(--color-1);
   display: grid;
   grid-template-columns: 10px 1fr;
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .card .dash {
@@ -268,10 +284,12 @@ body {
 }
 
 .users {
-  background-color: #eef2ff;
+  background-color: var(--color-1);
   padding: 30px;
   display: grid;
   align-content: space-between;
+  box-shadow: var(--shadow);
+  border-radius: 8px;
 }
 
 .users a {
@@ -310,11 +328,13 @@ body {
 }
 
 .announcements .outer {
-  background-color: #eef2ff;
+  background-color: var(--color-1);
   padding: 30px;
   display: grid;
   grid-template-rows: 1fr;
   align-content: center;
+  box-shadow: var(--shadow);
+  border-radius: 8px;
 }
 
 .announcements .contents {
