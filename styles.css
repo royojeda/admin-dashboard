@@ -66,8 +66,23 @@ body {
   height: 30px;
 }
 
+.search button {
+  border: none;
+  background: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: var(--color-2);
+}
+
 .search input {
+  padding: 6px;
   font-size: 1.25rem;
+  background-color: var(--color-3);
+  border: none;
+  border-radius: 8px;
 }
 
 .user-info {
@@ -106,6 +121,7 @@ body {
   background-color: var(--color-7);
   border: none;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .actions button:hover {
@@ -287,6 +303,7 @@ body {
   border-radius: 8px;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .content button:hover {
