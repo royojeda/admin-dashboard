@@ -438,3 +438,13 @@ body {
   font-size: .9rem;
   align-self: start;
 }
+
+.credits p {
+  font-weight: 200;
+}
+
+.credits a {
+  display: inline;
+  text-decoration: underline;
+  color: white;
+}
