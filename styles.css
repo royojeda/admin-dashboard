@@ -63,10 +63,11 @@ body {
 }
 
 .search img {
-  height: 30px;
+  height: 40px;
 }
 
 .search button {
+  padding: 3px;
   border: none;
   background: none;
   border-radius: 8px;
@@ -78,7 +79,7 @@ body {
 }
 
 .search input {
-  padding: 6px;
+  padding: 0 10px;
   font-size: 1.25rem;
   background-color: var(--color-3);
   border: none;
