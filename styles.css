@@ -87,6 +87,7 @@ body {
 }
 
 .greetings {
+  font-weight: 600;
   padding: 0 50px;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -341,10 +342,11 @@ body {
   border-bottom: none;
 }
 
-.item button {
+.item a {
+  color: black;
   justify-self: start;
   align-self: end;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 
