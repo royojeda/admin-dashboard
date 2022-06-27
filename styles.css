@@ -269,8 +269,18 @@ body {
   gap: 20px;
 }
 
+.content button {
+  border-radius: 8px;
+  background: none;
+  border: none;
+}
+
+.content button:hover {
+  background-color: var(--color-2)
+}
+
 .content button img {
-  height: 30px;
+  height: 40px;
 }
 
 .trending {
